@@ -1,0 +1,16 @@
+<div class="collection">
+    <div class="card bg-dark text-light">
+        <img [src]="tokenItem.image_url" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{tokenItem.name}}</h5>
+          <p class="text-muted">.#{{tokenItem.token_id}}</p>
+          <div class="price d-flex">
+            <img src="assets/weth.png" class="currencyIcon" alt="" srcset="">
+            <h5 class="card-title">{{tokenItem.traits[0]?.value}}</h5>
+          </div>
+    
+        </div>
+    
+       
+      </div>
+</div>

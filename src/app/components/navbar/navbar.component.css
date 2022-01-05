@@ -1,0 +1,55 @@
+.navbar-brand .logo {
+    width: 150px;
+}
+
+.searchBar {
+
+ border-radius: 50px;
+ align-items: center;
+ flex: 1;
+ height: 3.5rem;
+
+
+}
+.navbar div div {
+margin: 10px;
+}
+
+.searchInput{
+
+  outline: 0;
+
+  color: #eee;
+}
+
+
+.navItems li a{
+
+    color: #A1A5B0;
+}
+
+.themeSwitchIcon{
+
+    padding: 5px;
+    height: 35px;
+}
+
+.btnTheme {
+    width: 4rem;
+    height: 4rem;
+}
+.loginBtn {
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+padding: 15px 40px;
+border-radius: 25px;
+color: #eee;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+
+.headerActions >  button {
+    margin: 5px;
+}
+

@@ -1,0 +1,12 @@
+<app-hero-collection [activeHero]="currentHero"></app-hero-collection>
+
+<div class="d-flex collectionList">
+  <ng-container *ngFor="let collection of collectionAssets">
+    
+
+    <app-collection-card (click)="setActiveHero(collection)" [tokenItem]="collection"></app-collection-card>
+
+  </ng-container>
+
+
+</div>

@@ -1,0 +1,10 @@
+.collectionList  {
+
+
+    overflow : scroll;
+    cursor: pointer;
+}
+
+.collectionList::-webkit-scrollbar{
+    display: none;
+}

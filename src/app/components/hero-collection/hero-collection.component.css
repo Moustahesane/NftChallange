@@ -1,0 +1,39 @@
+.heroContainer{
+
+    width: 100%;
+}
+
+.heroImage {
+
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+.hero {
+
+    margin: 10px;
+    border-bottom: 1px solid #C3C3C3;
+
+}
+
+.owner a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.ownerDetails {
+
+    flex: 1;
+}
+
+.ownerLink > img {
+    width: 35px;
+}
+
+.ownerLink {
+    margin: 0px 5px;
+}
+
+.heroTitle {
+    /* font-size: 69px; */
+}

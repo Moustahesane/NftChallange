@@ -1,0 +1,24 @@
+.card {
+
+    border-radius: 20px;
+    width: 15rem;
+}
+.card-body * {
+
+    margin-bottom: 0.5rem;
+}
+.card-img-top {
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.currencyIcon{
+    height: 23px;
+    width: 15px;
+    margin-right:5px;
+}
+
+.collection{
+
+    margin: 10px;
+}

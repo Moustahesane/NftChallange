@@ -1,0 +1,40 @@
+<div class="hero">
+
+    <div class="d-flex heroHighLight">
+        <div class="card mb-3 heroContainer text-white bg-black " >
+            <div class="row g-0">
+              <div class="col-3">
+                <img [src]="activeHero.image_url" class="img-fluid rounded-start heroImage" alt="...">
+              </div>
+              <div class="col-9 card text-white bg-black ">
+                <div class="card-body">
+                  <p class="card-tex h1 heroTitle">{{activeHero.name}} <span class="text-muted h5">.#{{activeHero.token_id}}</span></p>
+                  <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                  <p class="card-text"><small class="text-muted">Born 3 mins ago</small></p>
+                
+                </div>
+                <div class="card-footer bg-transparent d-flex owner">
+                    <div class="row g-0 ownerDetails">
+                        <div class="col-1">
+                            <img [src]="activeHero.owner.profile_img_url" width="60px" class="rounded-circle" alt="" srcset="">
+                          </div>
+                          <div class="col-11 px-4">
+                              <p class="mb-1">{{activeHero.owner.address}}</p>
+                              <a href="#" class="mb-1">@moustahesane</a>
+     
+                          </div>
+                    </div>
+                    <div class="d-flex">
+                        <button   type="submit" class="btn btn-transpart border-1 border-light rounded-circle ownerLink"><img  src="assets/owner/instagram.png" alt="" srcset="" class="themeSwitchIcon"></button>
+                        <button   type="submit" class="btn btn-transpart border-1 border-light rounded-circle ownerLink"><img  src="assets/owner/twitter.png" alt="" srcset="" class="themeSwitchIcon"></button>
+                        <button   type="submit" class="btn btn-transpart border-1 border-light rounded-circle ownerLink"><img  src="assets/owner/more.png" alt="" srcset="" class="themeSwitchIcon"></button>
+                    </div>
+                 
+                </div>
+
+              </div>
+            </div>
+          </div>
+    
+    </div>
+</div>
